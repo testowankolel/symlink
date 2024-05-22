@@ -1,1 +1,12 @@
-/etc/passwd
+{
+    "name": "vendor2/library2",
+    "description": "<s>desc",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\LibraryName\\": "src/"
+        }
+    }
+}
